@@ -1,0 +1,82 @@
+body
+{
+    margin: 0 ;
+    padding: 0;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position:relative;
+    max-width: 100%;
+    background-position: center center;
+    height: auto;
+    background-attachment: fixed;
+}
+nav {
+  position: relative;
+  height: 10vh; 
+  background-color: rgba(20, 33, 61, 0.6);
+  
+
+}
+.navbar-nav li a{
+    
+    padding: 5px 9px;
+    color: #ffffff;
+    margin-right: 10px;
+    transition: 0.5s ease;
+    
+   
+}   
+
+.navbar-nav li a:hover{
+    color: #000000;
+    background-color: #ffffff;
+   
+}
+.navbar-brand
+{
+    color: #ffffff;
+}
+.navbar-brand:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-item {
+  width: 200px;
+  text-align: center;
+}
+.col-12{
+  color:crimson;
+}
+.text {
+  color: rgb(11, 194, 87);
+
+}
+.Text12{
+  background: transparent;
+  color: #ffffff;
+  height: 75%;
+  text-align: center;
+  padding: 50px; ;
+  
+  
+}
+.banner{
+  color: black;
+}
+.btn{
+  border: 1px solid #111111 ;
+  color:rgb(156, 33, 228);
+  background: #00bcd4;
+}
+.btn:hover{
+
+  text-decoration:none;
+  background-color:rgb(243, 243, 236);
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+
+} 
+.navbar-nav li a:hover:not(:focus){
+  background: white;
+}
